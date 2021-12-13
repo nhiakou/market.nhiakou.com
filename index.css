@@ -1,0 +1,10 @@
+html {
+    font-family: Georgia, Verdana, sans-serif;
+    font-size: medium;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#e7e6e0 45%, #03878f);
+    color: #113245;
+}
