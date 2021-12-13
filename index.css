@@ -5,6 +5,13 @@ html {
 
 body {
     margin: 0;
-    background: linear-gradient(#e7e6e0 45%, #03878f);
+    background: linear-gradient(white 45%, #e7e6e0 40%, #03878f);
     color: #113245;
 }
+
+#handpicking {
+    width: 100vw;
+    height: 100vh;
+}
+
+
