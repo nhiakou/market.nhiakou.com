@@ -1,0 +1,50 @@
+html {
+    font-family: Georgia, Verdana, sans-serif;
+    font-size: large;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(white 45%, #e7e6e0 40%, #03878f);
+    color: #113245;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    font-size: 2em;
+}
+
+header section nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.one {
+    background: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.two {
+    background: yellow;
+    width: 100vw;
+    height: 100vh;
+}
+
+.three {
+    background: violet;
+    width: 100vw;
+    height: 100vh;
+}
+
+
