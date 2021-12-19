@@ -9,42 +9,39 @@ body {
     color: #113245;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
+body {
     width: 100vw;
-    height: 10vh;
-    position: sticky;
-    font-size: 2em;
+    height: 100vh;
+    margin: 0;
 }
 
-header section nav {
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background:olive;
+    display: flex;
+    
+}
+
+header section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
 }
+
 
 main {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
+    background: pink;
 }
 
-.one {
-    background: green;
+footer {
     width: 100vw;
-    height: 100vh;
+    height: 10vh;
+    background: olive;
 }
-
-.two {
-    background: yellow;
-    width: 100vw;
-    height: 100vh;
-}
-
-.three {
-    background: violet;
-    width: 100vw;
-    height: 100vh;
-}
-
-
