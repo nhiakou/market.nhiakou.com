@@ -20,7 +20,6 @@ header {
     width: 100vw;
     height: 20vh;
     background:olive;
-    display: flex;
     
 }
 
@@ -30,7 +29,19 @@ header section {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+ li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 
