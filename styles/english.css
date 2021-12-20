@@ -1,6 +1,7 @@
 html {
-    font-family: Georgia, Verdana, sans-serif;
-    font-size: large;
+    font-family: Georgia, sans-serif;
+    font-size: medium;
+    font-weight: 500px;
 }
 
 body {
@@ -10,12 +11,17 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    color: yellow;
+    font-size: 1.5rem;
+
+
 }
 
 header {
     width: 100vw;
     height: 20vh;
     background: green;
+    text-transform: uppercase;
     
 }
 
@@ -27,15 +33,18 @@ header section {
     padding: 30px 10%;
 }
 
+header section button {
+    font-size: 1.5rem;
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    font-size: 1.5rem ;
+    font-size: 1.2rem ;
+    float: right;
 }
 
-
-
- li {
+li {
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -52,6 +61,29 @@ main {
     width: 100vw;
     height: 70vh;
     background: pink;
+}
+
+main section {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main section img {
+    width: 50%;
+    height: 50%;
+    align-content: center;
+}
+#about {
+    background: skyblue
+}
+
+#market {
+    background: slateblue
+}
+
+#contact {
+    background: grey;
 }
 
 footer {
