@@ -7,19 +7,15 @@ body {
     margin: 0;
     background: linear-gradient(white 45%, #e7e6e0 40%, #03878f);
     color: #113245;
-}
-
-body {
     width: 100vw;
     height: 100vh;
     margin: 0;
 }
 
-
 header {
     width: 100vw;
     height: 20vh;
-    background:olive;
+    background: green;
     
 }
 
@@ -34,6 +30,7 @@ header section {
 nav {
     display: flex;
     flex-direction: row;
+    font-size: 1.5rem ;
 }
 
 
@@ -42,6 +39,12 @@ nav {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    float: right;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 20px;
+
 }
 
 
