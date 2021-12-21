@@ -46,7 +46,7 @@ nav {
     display: flex;
     flex-direction: row;
     font-size: 1.2rem ;
-    float: right;
+    align-items: right;
 }
 
 li {
@@ -58,7 +58,6 @@ li {
     display: inline-block;
     justify-content: space-between;
     padding: 0 20px;
-
 }
 
 
@@ -83,7 +82,6 @@ main section button {
 .landing {
     display: flex;
     flex-direction: row;
-    align-items: ;
 }
 
 #about {
