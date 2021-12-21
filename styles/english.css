@@ -1,0 +1,105 @@
+html {
+    font-family: Georgia, sans-serif;
+    font-size: medium;
+    font-weight: 500px;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(white 45%, #e7e6e0 40%, #03878f);
+    color: #113245;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    color: yellow;
+    font-size: 1.5rem;
+
+
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background: green;
+    text-transform: uppercase;
+    
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header section button {
+    font-size: 1.5rem;
+}
+
+#logo{
+    width: 140px;
+    height: 140px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem ;
+    float: right;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    float: right;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+
+main {
+    width: 100vw;
+    height: 70vh;
+    background: pink;
+    align-items: center;
+}
+
+main section {
+    width: 100vw;
+    height: 100vh;
+}
+
+main section button {
+    font-size: 1rem;
+    width: em;
+    height: 1rem;
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
+}
+
+#about {
+    background: skyblue
+}
+
+#market {
+    background: slateblue
+}
+
+#contact {
+    background: grey;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background: olive;
+}
