@@ -37,6 +37,11 @@ header section button {
     font-size: 1.5rem;
 }
 
+img{
+    width: 140px;
+    height: 140px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -61,6 +66,7 @@ main {
     width: 100vw;
     height: 70vh;
     background: pink;
+    align-items: center;
 }
 
 main section {
@@ -68,11 +74,10 @@ main section {
     height: 100vh;
 }
 
-
-main section img {
-    width: 50%;
-    height: 50%;
-    align-content: center;
+.landing {
+    display: flex;
+    flex-direction: row;
+    align-items: ;
 }
 #about {
     background: skyblue
