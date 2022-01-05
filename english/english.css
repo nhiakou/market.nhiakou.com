@@ -53,7 +53,6 @@ li {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    float: right;
     list-style: none;
     display: inline-block;
     justify-content: space-between;
@@ -75,8 +74,14 @@ main section {
 
 main section button {
     font-size: 1rem;
-    width: em;
-    height: 1rem;
+    width: 450px;
+    height: 75px;
+    border-radius: 10px ;
+}
+
+#username, #password {
+    width: 450px ;
+    height: 75px ;
 }
 
 .landing {
