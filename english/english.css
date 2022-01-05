@@ -67,12 +67,14 @@ main {
     align-items: center;
 }
 
-main section {
+#landing {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
-main section button {
+#signup, #donate {
     font-size: 1rem;
     width: 450px;
     height: 75px;
@@ -84,10 +86,6 @@ main section button {
     height: 75px ;
 }
 
-.landing {
-    display: flex;
-    flex-direction: row;
-}
 
 #about {
     background: skyblue
