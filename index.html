@@ -3,8 +3,8 @@
         <title>Home | Nhia Kou Marketplace</title>
         <meta charset="utf-8">
         <link rel="icon" href="../images/favicon.png">
-        <link rel="stylesheet" href="../english/english.css" media="(min-width:480px)">
-        <link rel="stylesheet" href="../english/english.m.css" media="(max-width: 480px)">
+        <link rel="stylesheet" href="../english/english.css" media="(min-width: 480px)" />
+        <link rel="stylesheet" href="../english/english.m.css" media="(max-width: 480px)"/>
         <script href="index.js" defer></script>
     </head>
     <body>
@@ -31,14 +31,20 @@
                 <section>
                     <img id="handpicking" src="../images/picking.jpg" />
                 </section>
-                <section>
-                    <input id="username" name="username" placeholder="Username"type="email" />
-                    <input id="password" name="password" placeholder="Password" type="password" />
-                    <input id="remember me" type="checkbox" />
-                    <label for="Remember me" />Remember me</label>
-                    <br>
-                    <button id="signup"><a href="../signup/english.html">Sign up</a></button>
+                <section id="signin">
+                    <form>
+                        <input id="username" name="username" placeholder="Username"type="email" />
+                        <input id="password" name="password" placeholder="Password" type="password" />
+                        <br>
+                        <input id="remember me" type="checkbox" />
+                        <label for="Remember me" />Remember me</label>
+                        <br>
+                        <button id="login"><a href="../profiles/english.html">Log in</a></button>
+                    </form>
+                    <section>
+                        <button id="signup"><a href="../signup/english.html">Sign up</a></button>
                     <button id="donate"><a>Donate</a></button>
+                    </section>
                 </section>
                 
             </section>
