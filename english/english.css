@@ -12,8 +12,8 @@ body {
     height: 100vh;
     margin: 0;
     color: yellow;
-    font-size: 1.5rem;
-
+    font-size: 12px;
+    box-sizing: border-box;
 
 }
 
@@ -22,7 +22,7 @@ header {
     height: 20vh;
     background: green;
     text-transform: uppercase;
-    
+    order: 1
 }
 
 header section {
@@ -33,9 +33,6 @@ header section {
     padding: 30px 10%;
 }
 
-header section button {
-    font-size: 1.5rem;
-}
 
 #logo{
     width: 140px;
@@ -46,47 +43,68 @@ nav {
     display: flex;
     flex-direction: row;
     font-size: 1.2rem ;
-    float: right;
+    align-items: right;
 }
 
 li {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    float: right;
     list-style: none;
     display: inline-block;
     justify-content: space-between;
     padding: 0 20px;
-
 }
 
 
 main {
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     background: pink;
     align-items: center;
+    order: 2
 }
 
-main section {
+
+#landing {
     width: 100vw;
-    height: 100vh;
-}
-
-main section button {
-    font-size: 1rem;
-    width: em;
-    height: 1rem;
-}
-
-.landing {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    align-items: ;
+    justify-content: center;
+    align-content: center;
 }
 
+#landing section {
+    box-sizing: content-box;
+    padding: 10vh;
+    flex-wrap: wrap;
+}
+
+form {
+    border: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.register {
+    border: 25px;
+    flex-wrap: wrap;
+}
+
+#signup, #donate, #username, #password, #login {
+    font-size: 24px;
+    width: 450px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+
 #about {
+    width: 100vw;
     background: skyblue
 }
 
@@ -95,6 +113,7 @@ main section button {
 }
 
 #contact {
+    width: 100vw;
     background: grey;
 }
 
@@ -102,4 +121,6 @@ footer {
     width: 100vw;
     height: 10vh;
     background: olive;
+    order: 3;
 }
+
