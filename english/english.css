@@ -66,7 +66,7 @@ main {
 }
 
 
-.landing {
+#landing {
     width: 100vw;
     box-sizing: border-box;
     display: flex;
@@ -75,14 +75,14 @@ main {
     align-content: center;
 }
 
-.landing section {
+#landing section {
     box-sizing: content-box;
     padding: 10vh;
     flex-wrap: wrap;
 }
 
 form {
-    border: 25px solid black;
+    border: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ form {
 }
 
 
-.about {
+#about {
     width: 100vw;
     background: skyblue
 }
@@ -112,7 +112,7 @@ form {
     background: slateblue
 }
 
-.contact {
+#contact {
     width: 100vw;
     background: grey;
 }
