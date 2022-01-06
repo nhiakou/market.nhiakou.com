@@ -12,7 +12,7 @@ body {
     height: 300vh;
     margin: 0;
     color: yellow;
-    font-size: 12px;
+    font-size: 36px;
     box-sizing: border-box;
 
 }
@@ -74,13 +74,18 @@ main {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    background: yellow;
+    background: purple;
 }
 
 #landing section {
     box-sizing: content-box;
     padding: 10vh;
     flex-wrap: wrap;
+}
+
+#mainimg {
+    width: 25vw;
+    height: 45vh;
 }
 
 form {

@@ -47,6 +47,13 @@ input, select, button {
     width: 450px; 
 }
 
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 footer {
     width: 100vw;
     display: flex;
