@@ -10,11 +10,13 @@ body {
     height: 100vh;
     font-size: 35px;
     box-sizing: border-box;
+    overflow: none;
+
 }
 
 main {
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     padding-top: 20vh;
     display: flex;
     flex-direction: row;
@@ -36,16 +38,17 @@ input, select, button {
     font-size: 35px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 #birthday {
-    width: 450px;
-    align-items: left; 
+    width: 450px; 
 }
 
 footer {
     width: 100vw;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
