@@ -7,4 +7,42 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+main section {
+    padding: 25px;
+}
+
+
+
+input, select, button {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+#birthday {
+    width: 450px;
+    align-items: left; 
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
