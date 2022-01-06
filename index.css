@@ -9,7 +9,7 @@ body {
     background: linear-gradient(white 45%, #e7e6e0 40%, #03878f);
     color: #113245;
     width: 100vw;
-    height: 325vh;
+    height: 300vh;
     margin: 0;
     color: yellow;
     font-size: 12px;
@@ -59,7 +59,7 @@ li {
 
 main {
     width: 100vw;
-    height: 275vh;
+    height: 250vh;
     background: pink;
     align-items: center;
     
@@ -74,6 +74,7 @@ main {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    background: yellow;
 }
 
 #landing section {
@@ -118,7 +119,7 @@ form {
 
 #contact {
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     background: grey;
 }
 
