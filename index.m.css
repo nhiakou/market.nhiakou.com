@@ -1,0 +1,30 @@
+html {
+    font-family: Georgia, sans-serif;
+    font-size: medium;
+    background: greens;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    background: green;
+}
+
+#logo {
+    width: 5px;
+    height: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
