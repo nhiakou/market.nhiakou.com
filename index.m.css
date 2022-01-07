@@ -14,6 +14,17 @@ body {
 }
 
 header {
-    display: hidden;
+    width: 100vw;
+    height: 5vh;
+    background: green;
 }
 
+#logo {
+    width: 5px;
+    height: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
