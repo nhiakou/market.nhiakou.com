@@ -112,7 +112,8 @@ form {
 #about {
     width: 100vw;
     height: 100vh;
-    background: skyblue
+    background: skyblue;
+    text-align: center;
 }
 
 #market {
@@ -130,6 +131,7 @@ footer {
     width: 100vw;
     height: 25vh;
     background: olive;
+    text-align: center;
     
 }
 
