@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    max-width: 480vw;
+    height: 680vh;
+    font-size: 14px;
+    
+}
+
+img {
+    width: 75px;
+}
+
+header {
+    width: 100%;
+    height: 2%;
+    background: pink;
+    display: flex;
+    padding: 50px;
+}
+
+header section {
+    width: 100vw;
+    height: 100%;
+    flex-direction: row;
+}
+
+nav {
+    visibility: hidden;
+}
+
+#container:hover + nav {
+    visibility: visible;
+    display: block;
+}
+
+
+
+
+
+main {
+    width: 100%;
+    height: 95%;
+    background: green;
+}
+
+footer {
+    width: 100%;
+    height: 3%;
+    background: paleturquoise;
+}

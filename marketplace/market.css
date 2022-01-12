@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 350vh;
+    background: yellow;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 15%;
+}
+
+#symbol {
+    display: none;
+}
+
+header {
+    width: 100vw;
+    height: 25vh;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width: 100vw;
+    height: 300vh;
+    background: green;
+}
+
+footer {
+    width: 100vw;
+    height: 25vh;
+    background: orange;
+}
