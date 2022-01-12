@@ -25,8 +25,15 @@ header section {
 }
 
 nav {
-    visibility: collapse;
+    visibility: hidden;
 }
+
+#container:hover + nav {
+    visibility: visible;
+    display: block;
+}
+
+
 
 
 
