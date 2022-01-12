@@ -1,6 +1,7 @@
 html, body {
+    margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 350vh;
     background: yellow;
     font-size: 24px;
     box-sizing: border-box;
@@ -8,4 +9,24 @@ html, body {
 
 img {
     width: 10%;
+}
+
+header {
+    width: 100vw;
+    height: 25vh;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width: 100vw;
+    height: 300vh;
+    background: green;
+}
+
+footer {
+    width: 100vw;
+    height: 25vh;
+    background: orange;
 }
