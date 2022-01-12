@@ -8,13 +8,24 @@ html, body {
 }
 
 img {
-    width: 10%;
+    width: 15%;
+}
+
+#symbol {
+    display: none;
 }
 
 header {
     width: 100vw;
     height: 25vh;
     background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+nav {
     display: flex;
     flex-direction: row;
 }

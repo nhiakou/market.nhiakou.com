@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    max-width: 480vw;
+    height: 680vh;
+}
+
+img {
+    width: 25%;
+}
+
+header {
+    width: 100%;
+    height: 3%;
+    background: pink;
+}
+
+main {
+    width: 100%;
+    height: 94%;
+    background: green;
+}
+
+footer {
+    width: 100%;
+    height: 3%;
+    background: paleturquoise;
+}
