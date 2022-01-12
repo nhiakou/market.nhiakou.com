@@ -2,37 +2,37 @@ html, body {
     margin: 0;
     max-width: 480vw;
     height: 680vh;
+    font-size: 14px;
+    
 }
 
 img {
-    width: 25%;
+    width: 75px;
 }
 
 header {
     width: 100%;
-    height: 3%;
+    height: 2%;
     background: pink;
     display: flex;
+    padding: 50px;
 }
 
 header section {
+    width: 100vw;
+    height: 100%;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
 
 nav {
-    visibility: hidden;
+    visibility: collapse;
 }
 
-header section section:hover + nav {
-    display: block;
-    font-size: 20px;
-}
+
 
 main {
     width: 100%;
-    height: 94%;
+    height: 95%;
     background: green;
 }
 
