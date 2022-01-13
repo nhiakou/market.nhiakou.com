@@ -68,7 +68,10 @@ li {
     padding: 0 20px;
 }
 
-
+iframe {
+    width: 720px;
+    height: 420px;
+}
 
 #landing {
     width: 100%;
@@ -77,7 +80,7 @@ li {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    background: pink;
+    background: white;
 }
 
 #landing section {
