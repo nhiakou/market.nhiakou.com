@@ -1,6 +1,6 @@
 html {
     font-family: Georgia, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500px;
 }
 
@@ -9,7 +9,6 @@ body {
     height: 300vh;
     margin: 0;
     color: yellow;
-    font-size: 18px;
     box-sizing: border-box;
 
 }
@@ -68,10 +67,6 @@ li {
     padding: 0 20px;
 }
 
-iframe {
-    width: 720px;
-    height: 420px;
-}
 
 #landing {
     width: 100%;
