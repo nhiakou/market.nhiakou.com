@@ -7,14 +7,12 @@ body {
     height: 200vh;
     font-size: 16px;
     background: blue;
-    text-align: center;
     box-sizing: border-box;
 }
 
 header {
     height: 6%;
     background: blueviolet;
-   
 }
 
 main {
@@ -27,11 +25,25 @@ footer {
     background: orange;
 }
 
+header section:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
 img {
-    width: 15%;
+    width: 12%;
+}
+
+#menuimg {
+    visibility: visible;
+}
+
+#menu {
+    visibility: hidden;
 }
 
 iframe {
     width: 200px;
-
 }
+
+
