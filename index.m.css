@@ -12,18 +12,18 @@ body {
 }
 
 header {
-    height: 4%;
+    height: 6%;
     background: blueviolet;
    
 }
 
 main {
-    height: 92%;
+    height: 94%;
     background: red
 }
 
 footer {
-    height: 4%;
+    height: 5%;
     background: orange;
 }
 
