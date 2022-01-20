@@ -1,7 +1,7 @@
 html {
     font-size: medium;
 }
-
+ 
 body {
     margin: 0;
     width: 100vw;
@@ -9,39 +9,46 @@ body {
     background: yellow;
     font-size: 24px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    width: 15%;
+header {
+    width: 100%;
+    flex: 1;
+    background: green;
+} 
+
+main {
+    width: 100%;
+    flex: 15;
+    background: purple;
 }
 
+footer {
+    width: 100%;
+    flex: 1;
+    background: blue;
+}
+
+#cart, img {
+    width: 20%;
+}
+ 
 #symbol {
     display: none;
 }
 
-header {
-    width: 100vw;
-    height: 25vh;
-    background: red;
+header section {
+    border: 2px solid black;
+}
+
+header section:first-child {
     display: flex;
     flex-direction: row;
 }
 
-
-
-nav {
-    display: flex;
-    flex-direction: row;
+header section nav:first-child {
+    background-color: salmon;
 }
 
-main {
-    width: 100%;
-    height: 300vh;
-    background: green;
-}
-
-footer {
-    width: 100vw;
-    height: 25vh;
-    background: orange;
-}
