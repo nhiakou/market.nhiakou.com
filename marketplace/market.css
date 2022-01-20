@@ -10,20 +10,45 @@ body {
     font-size: 24px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 header {
     width: 100%;
     flex: 1;
-}
+    background: green;
+} 
 
 main {
     width: 100%;
-    flex: 5;
+    flex: 15;
+    background: purple;
 }
 
 footer {
     width: 100%;
     flex: 1;
+    background: blue;
 }
+
+#cart, img {
+    width: 20%;
+}
+ 
+#symbol {
+    display: none;
+}
+
+header section {
+    border: 2px solid black;
+}
+
+header section:first-child {
+    display: flex;
+    flex-direction: row;
+}
+
+header section nav:first-child {
+    background-color: salmon;
+}
+
