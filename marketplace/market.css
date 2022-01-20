@@ -1,7 +1,7 @@
 html {
     font-size: medium;
 }
-
+ 
 body {
     margin: 0;
     width: 100vw;
@@ -9,39 +9,21 @@ body {
     background: yellow;
     font-size: 24px;
     box-sizing: border-box;
-}
-
-img {
-    width: 15%;
-}
-
-#symbol {
-    display: none;
+    display: flex;
+    flex-direction: row;
 }
 
 header {
-    width: 100vw;
-    height: 25vh;
-    background: red;
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-nav {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    flex: 1;
 }
 
 main {
     width: 100%;
-    height: 300vh;
-    background: green;
+    flex: 5;
 }
 
 footer {
-    width: 100vw;
-    height: 25vh;
-    background: orange;
+    width: 100%;
+    flex: 1;
 }

@@ -53,7 +53,7 @@ header section {
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex: row nowrap;
     align-items: right;
 }
 
